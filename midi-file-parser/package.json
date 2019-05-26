@@ -1,0 +1,10 @@
+{
+  "name": "midi-file-parser",
+  "version": "1.0.0",
+  "description": "parsing midi to ymz-project",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tonejs/midi": "2.0.0"
+  }
+}
