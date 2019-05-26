@@ -94,9 +94,10 @@ for (var i = 1; i < midi_groups.length; i++) {
       return;
     }
 
-    console.log(`SetFrequency(${note.channel},${calcFrequency(note.midi)});`);
+    process.stdout.write(`SetFrequency(${note.channel},${calcFrequency(note.midi)});`);
 
   });
-  console.log(`delay(${sleepDuration});`);
+
+  process.stdout.write(`delay(${sleepDuration});`);
 }
 
